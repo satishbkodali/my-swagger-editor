@@ -22,6 +22,13 @@ lib-cov
 coverage
 *.lcov
 
+
+# testing
+/coverage
+
+# production
+/build
+
 # nyc test coverage
 .nyc_output
 
@@ -40,6 +47,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+/.pnp
+.pnp.js
 
 # TypeScript v1 declaration files
 typings/
@@ -102,3 +111,9 @@ dist
 
 # TernJS port file
 .tern-port
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
