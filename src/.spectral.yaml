@@ -1,0 +1,6 @@
+rules:
+  no-empty-description:
+    given: "$..description"
+    message: Description must not be empty
+    then:
+      function: truthy
